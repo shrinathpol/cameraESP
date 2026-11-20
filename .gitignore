@@ -1,0 +1,22 @@
+# ESP-IDF build & configuration outputs
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+
+# Python & OS artifacts
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+
+# Logs & captured test images
+*.log
+*.jpg
+
+# IDE & clangd caches
+.cache/
+.clangd
+.vscode/
+*.bak
